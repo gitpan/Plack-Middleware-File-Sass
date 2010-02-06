@@ -1,0 +1,30 @@
+---
+abstract: 'Sass support for all Plack frameworks'
+author:
+  - 'Tatsuhiko Miyagawa <miyagawa@bulknews.net>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
+  Test::Requires: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.92'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Plack-Middleware-File-Sass
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  Plack::App::File: 0
+  Text::Sass: 0
+  perl: 5.8.1
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/miyagawa/Plack-Middleware-File-Sass.git
+version: 0.01
