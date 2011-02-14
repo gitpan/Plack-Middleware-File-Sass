@@ -21,9 +21,8 @@ no_index:
     - xt
 requires:
   Plack::App::File: 0
-  Text::Sass::Expr: 0
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/miyagawa/Plack-Middleware-File-Sass.git
-version: 0.02
+version: 0.03
